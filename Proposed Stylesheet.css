@@ -4,9 +4,14 @@ EVERYTHING - BELOW
 #########################################################
 */
 
-/* EVERYTHING: Removal of "status... done" text */
+/* Hidden the "status... done" text */
 #lblStatusSending {
     visibility: hidden;
+}
+
+/*  */
+.popover-content .btn {
+  padding: 0px 0px;
 }
 
 /* 
@@ -14,6 +19,8 @@ EVERYTHING - BELOW
 DESKTOP ONLY - BELOW
 #########################################################
 */
+
+
 
 
 /* 
