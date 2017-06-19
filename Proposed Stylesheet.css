@@ -3,7 +3,6 @@
 EVERYTHING - BELOW
 #########################################################
 */
-
 /* Hidden the "status... done" text */
 #lblStatusSending {
     visibility: hidden;
@@ -17,27 +16,20 @@ DESKTOP ONLY - BELOW
 
 
 
-
 /* 
 #########################################################
 MOBILE ONLY - BELOW
 #########################################################
 */
-
-
 @media only screen and (max-width: 768px) {
-    
-	/* Removal of "Record Session" popup */
-	.shepherd-step.shepherd-electromeet.shepherd-has-title.shepherd-has-cancel-link.shepherd-element.shepherd-element-attached-right.shepherd-target-attached-left.shepherd-open.shepherd-enabled.shepherd-pinned.shepherd-pinned-top.shepherd-visible {
-    display: none;
+    /* Removal of "Record Session" popup */ .shepherd-step.shepherd-electromeet.shepherd-has-title.shepherd-has-cancel-link.shepherd-element.shepherd-element-attached-right.shepherd-target-attached-left.shepherd-open.shepherd-enabled.shepherd-pinned.shepherd-pinned-top.shepherd-visible {
+        display: none;
+    }
+
+    /* Increased size of emoticon depiction */
+    .popover-content .btn {
+        padding: 0px 0px;
+    }
+	
+	
 }
-
-/* Increased size of emoji faces */
-.popover-content .btn {
-  padding: 0px 0px;
-}
-
-}
-
-
-
