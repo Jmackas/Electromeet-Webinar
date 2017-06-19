@@ -1,6 +1,11 @@
 /* Removal of "status... done" text */
-
-p#lblStatusSending {
+#lblStatusSending {
     visibility: hidden;
 }
 
+/* Removal of "Record Session" popup */
+@media only screen and (max-width: 768px) {
+    .shepherd-step.shepherd-electromeet.shepherd-has-title.shepherd-has-cancel-link.shepherd-element.shepherd-element-attached-right.shepherd-target-attached-left.shepherd-open.shepherd-enabled.shepherd-pinned.shepherd-pinned-top.shepherd-visible {
+    display: none;
+}
+}
