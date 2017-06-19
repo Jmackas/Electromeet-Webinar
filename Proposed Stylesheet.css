@@ -9,11 +9,6 @@ EVERYTHING - BELOW
     visibility: hidden;
 }
 
-/*  */
-.popover-content .btn {
-  padding: 0px 0px;
-}
-
 /* 
 #########################################################
 DESKTOP ONLY - BELOW
@@ -29,10 +24,20 @@ MOBILE ONLY - BELOW
 #########################################################
 */
 
-/* Removal of "Record Session" popup */
+
 @media only screen and (max-width: 768px) {
-    .shepherd-step.shepherd-electromeet.shepherd-has-title.shepherd-has-cancel-link.shepherd-element.shepherd-element-attached-right.shepherd-target-attached-left.shepherd-open.shepherd-enabled.shepherd-pinned.shepherd-pinned-top.shepherd-visible {
+    
+	/* Removal of "Record Session" popup */
+	.shepherd-step.shepherd-electromeet.shepherd-has-title.shepherd-has-cancel-link.shepherd-element.shepherd-element-attached-right.shepherd-target-attached-left.shepherd-open.shepherd-enabled.shepherd-pinned.shepherd-pinned-top.shepherd-visible {
     display: none;
 }
+
+/* Increased size of emoji faces */
+.popover-content .btn {
+  padding: 0px 0px;
 }
+
+}
+
+
 
