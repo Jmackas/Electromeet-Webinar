@@ -1,7 +1,26 @@
-/* Removal of "status... done" text */
+/* 
+#########################################################
+EVERYTHING - BELOW
+#########################################################
+*/
+
+/* EVERYTHING: Removal of "status... done" text */
 #lblStatusSending {
     visibility: hidden;
 }
+
+/* 
+#########################################################
+DESKTOP ONLY - BELOW
+#########################################################
+*/
+
+
+/* 
+#########################################################
+MOBILE ONLY - BELOW
+#########################################################
+*/
 
 /* Removal of "Record Session" popup */
 @media only screen and (max-width: 768px) {
@@ -9,3 +28,4 @@
     display: none;
 }
 }
+
