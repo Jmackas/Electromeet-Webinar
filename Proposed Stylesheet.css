@@ -1,1 +1,5 @@
-Test
+/* Removal of "status... done" text */
+
+p#lblStatusSending {
+    visibility: hidden;
+}
