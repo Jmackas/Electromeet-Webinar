@@ -36,6 +36,31 @@ DESKTOP ONLY - BELOW
 #########################################################
 */
 
+/* Removal of 3 dotted drop down menu */
+.dropdown.pull-left.more-options {
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* 
