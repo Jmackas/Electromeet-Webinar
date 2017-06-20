@@ -9,7 +9,10 @@ EVERYTHING - BELOW
     visibility: hidden;
 }
 
-
+/* Fullscreen icon removed, it caused more issues than necessary */
+ul.full-screen-icons {
+    display: none;
+}
 
 
 
