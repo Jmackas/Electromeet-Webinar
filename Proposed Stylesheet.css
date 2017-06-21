@@ -3,7 +3,6 @@
 EVERYTHING - BELOW
 #########################################################
 */
-
 /* Hidden the "status... done" text */
 #lblStatusSending {
     visibility: hidden;
@@ -14,13 +13,11 @@ ul.full-screen-icons {
     display: none;
 }
 
-
 /* 
 #########################################################
 DESKTOP ONLY - BELOW
 #########################################################
 */
-
 /* Removal of 3 dotted drop down menu */
 .dropdown.pull-left.more-options {
     visibility: hidden;
@@ -30,7 +27,6 @@ DESKTOP ONLY - BELOW
 .btn-emoticon {
     margin: -3px 0 0 0;
 }
-
 
 /* 
 #########################################################
@@ -46,8 +42,8 @@ MOBILE ONLY - BELOW
     .popover-content .btn {
         padding: 0px 0px;
     }
-	
-	/* Increased size of dropdown modules */
-	.left-section {
-    max-height: 50%;	
-}
+
+    /* Increased size of dropdown modules */
+    .left-section {
+        max-height: 50%;
+    }
