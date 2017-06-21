@@ -8,25 +8,28 @@ EVERYTHING - BELOW
     visibility: hidden;
 }
 
-/* Fullscreen icon removed, it caused more issues than necessary */
-ul.full-screen-icons {
-    display: none;
-}
-
 /* 
 #########################################################
 DESKTOP ONLY - BELOW
 #########################################################
 */
 /* Removal of 3 dotted drop down menu */
+/*
 .dropdown.pull-left.more-options {
     visibility: hidden;
 }
 
+
+keep dots on the right and not left
+
+*/
+
 /* Positioning of the emoticon button */
+/*
 .btn-emoticon {
     margin: -3px 0 0 0;
 }
+*/
 
 /* 
 #########################################################
