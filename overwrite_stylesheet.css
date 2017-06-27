@@ -1,7 +1,11 @@
 /* 
-#########################################################
+#
+##
+###
 EVERYTHING - BELOW
-#########################################################
+###
+##
+#
 */
 /* Hidden the "status... done" text */
 #lblStatusSending {
@@ -18,10 +22,17 @@ div.colorPicker-picker {
     background: linear-gradient(to bottom right, #38ff00, red) !important;
 }
 
+
+
+
 /* 
-#########################################################
+#
+##
+###
 DESKTOP ONLY - BELOW
-#########################################################
+###
+##
+#
 */
 /* Removal of 3 dotted drop down menu */
 i.fa.fa-ellipsis-v {
@@ -34,10 +45,18 @@ i.fa.fa-ellipsis-v {
     margin: -3px 0 0 0;
 }
 */
+
+
+
+
 /* 
-#########################################################
+#
+##
+###
 MOBILE ONLY - BELOW
-#########################################################
+###
+##
+#
 */
 @media only screen and (max-width: 768px) {
     /* Removal of "Record Session" popup */ .shepherd-step.shepherd-electromeet.shepherd-has-title.shepherd-has-cancel-link.shepherd-element.shepherd-element-attached-right.shepherd-target-attached-left.shepherd-open.shepherd-enabled.shepherd-pinned.shepherd-pinned-top.shepherd-visible {
