@@ -17,11 +17,6 @@ EVERYTHING - BELOW
         padding: 3px 9.5px;
     }
 
-/* Replaced the deleted image in the colour swab module */
-div.colorPicker-picker {
-    background: linear-gradient(to bottom right, #38ff00, red) !important;
-}
-
 
 
 
